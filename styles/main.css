@@ -1,0 +1,85 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300;400;500;600&display=swap');
+
+/* ALL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* LAYOUT */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact {
+    align-items: baseline;
+    background-color:rgb(253, 204, 204);
+    display: flex;
+}
+
+.location, .connect, .hours {
+    flex: 1 1 45%;
+    gap: 2em;
+    line-height: 1.6;
+    margin: 4em 0 1em 0;
+}
+
+.navigation {
+    background-color:rgba(253, 204, 204, 0.9);
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em 0;
+}
+
+@media all and (max-width: 700px) {
+    #contact {
+        flex-wrap: wrap;
+    }
+
+    .location, .connect, .hours {
+        flex-basis: 80em;
+    }
+}
+
+/* CONTENT */
+
+.header {
+    background: linear-gradient(rgba(255, 230, 206, 0.5), rgba(255, 208, 188, 0.5)), url('../imgs/lbn-banner7.png'), url('../imgs/manicure.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.nav-link {
+    color: #9d3c72;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header h1 {
+    color: #c85c8e;
+    font-family: "Great Vibes", cursive;
+    font-size: clamp(min(10vw, 25rem), 10vw, max(50vw, 30rem));
+    font-weight: 300;
+    margin: 1em 0 0.5em 0;
+    text-shadow: 3px 1px #9d3c72;
+}
+
+section p {
+    max-width: 70ch;
+}
