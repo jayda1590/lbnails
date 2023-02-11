@@ -22,10 +22,15 @@ body {
     flex-direction: column;
 }
 
+section {
+    flex-basis: 25em;
+}
+
 #contact {
     align-items: baseline;
     background-color:rgb(253, 204, 204);
     display: flex;
+    flex-basis: 18em;
 }
 
 .location, .connect, .hours {
@@ -74,7 +79,7 @@ body {
 .header h1 {
     color: #c85c8e;
     font-family: "Great Vibes", cursive;
-    font-size: clamp(min(10vw, 25rem), 10vw, max(50vw, 30rem));
+    font-size: clamp(min(11vw, 25rem), 11vw, max(50vw, 30rem));
     font-weight: 300;
     margin: 1em 0 0.5em 0;
     text-shadow: 3px 1px #9d3c72;
