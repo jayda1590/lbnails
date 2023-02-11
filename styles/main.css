@@ -55,6 +55,11 @@ section {
     .location, .connect, .hours {
         flex-basis: 80em;
     }
+
+    .navigation {
+        flex-wrap: wrap;
+        flex-basis: 100em;
+    }
 }
 
 /* CONTENT */
