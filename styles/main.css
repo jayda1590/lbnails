@@ -87,7 +87,7 @@ section {
     font-size: clamp(min(11vw, 25rem), 11vw, max(50vw, 30rem));
     font-weight: 300;
     margin: 1em 0 0.5em 0;
-    text-shadow: 3px 1px #9d3c72;
+    text-shadow: 2px 1px #9d3c72;
 }
 
 section p {
