@@ -48,7 +48,9 @@ section {
 .navigation {
     background-color:rgba(253, 204, 204, 0.9);
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    justify-content: center;
     padding: 1.5em 0;
 }
 
@@ -68,22 +70,20 @@ section {
     .location, .connect, .hours {
         flex-basis: 80em;
     }
-
-    .navigation {
-        flex-wrap: wrap;
-        flex-basis: 100em;
-    }
 }
 
 /* CONTENT */
 
 .header {
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(rgba(255, 230, 206, 0.5), rgba(255, 208, 188, 0.5)), url('../imgs/lbn-banner7.png'), url('../imgs/manicure.jpg');
     background-position: bottom;
     background-size: cover;
 }
 
 .navigation li {
+    flex: 3 1 18em;
     list-style-type: none;
 }
 
@@ -95,11 +95,12 @@ section {
 }
 
 .header h1 {
+    align-self: center;
     color: #c85c8e;
     font-family: "Great Vibes", cursive;
     font-size: clamp(min(11vw, 25rem), 11vw, max(50vw, 30rem));
     font-weight: 300;
-    margin: 1em 0 0.5em 0;
+    padding: 1.5em 0 ;
     text-shadow: 2px 1px #9d3c72;
 }
 
