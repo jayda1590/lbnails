@@ -50,10 +50,13 @@ section {
 .navigation {
     background-color:rgba(253, 204, 204, 0.9);
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.8em;
     justify-content: center;
-    padding: 1.5em 0;
+    padding: 1.6em 0;
+}
+
+.logo {
+    height: 1.6em;
+    width: 1.6em;
 }
 
 @media all and (max-width: 44em) {
