@@ -102,3 +102,7 @@ section p {
     line-height: 1.7;
     max-width: 70ch;
 }
+
+#about p {
+    text-align: justify;
+}
