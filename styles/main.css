@@ -18,9 +18,10 @@ body {
 /* LAYOUT */
 
 .container {
-    background-color: #fdfdf0;
+    background-color: rgb(253, 253, 242);
     display: flex;
     flex-direction: column;
+    min-width: 100%;
 }
 
 section {
@@ -40,7 +41,7 @@ section {
     justify-content: center;
 }
 
-.location, .connect, .hours {
+.connect, .hours {
     flex-basis: 25em;
     line-height: 1.6;
     margin-top: 4em;
@@ -51,13 +52,9 @@ section {
 .navigation {
     background-color:rgba(253, 204, 204, 0.9);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 1.6em 0;
-}
-
-.logo {
-    height: 1.6em;
-    width: 1.6em;
 }
 
 @media all and (max-width: 44em) {
@@ -80,9 +77,25 @@ section {
     background-size: cover;
 }
 
+.logo {
+    height: 1.8em;
+    width: 1.8em;
+}
+
 .navigation li {
-    flex: 3 1 18em;
+    flex: 2 20 16em;
+    padding: .5em 0;
     list-style-type: none;
+}
+
+#book a {
+    background-color: #c85c8e;
+    border: 2px solid #c85c8e;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+    padding: .5em 1em;
+    text-decoration: none;
 }
 
 .nav-link {
