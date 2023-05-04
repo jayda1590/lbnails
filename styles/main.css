@@ -59,7 +59,7 @@ section {
 
 @media all and (max-width: 44em) {
     header h1 {
-        text-shadow: 0 1px #9d3c72;
+        text-shadow: 0 1px rgb(157, 60, 114);
     }
     
     section p {
@@ -89,17 +89,23 @@ section {
 }
 
 #book a {
-    background-color: #c85c8e;
-    border: 2px solid #c85c8e;
+    background-color: rgb(200, 92, 142);
+    border: 2px solid rgb(188, 87, 142);
     border-radius: 50px;
-    color: white;
+    color: rgb(245, 245, 245);
     font-weight: 500;
     padding: .5em 1em;
     text-decoration: none;
 }
 
+#book a:hover {
+    background-color: rgb(245, 245, 245);
+    color: rgb(200, 92, 142);
+    font-weight: 600;
+}
+
 .nav-link {
-    color: #9d3c72;
+    color: rgb(157, 60, 114);
     font-size: 1.3em;
     font-weight: 600;
     text-decoration: none;
@@ -107,12 +113,12 @@ section {
 
 .header h1 {
     align-self: center;
-    color: #c85c8e;
+    color: rgb(200, 92, 142);
     font-family: "Great Vibes", cursive;
     font-size: clamp(min(11vw, 25rem), 11vw, max(50vw, 30rem));
     font-weight: 300;
     padding: 1.5em 0 ;
-    text-shadow: 2px 1px #9d3c72;
+    text-shadow: 2px 1px rgb(157, 60, 114);
 }
 
 section p {
