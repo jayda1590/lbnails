@@ -88,6 +88,13 @@ section {
     list-style-type: none;
 }
 
+.nav-link {
+    color: rgb(157, 60, 114);
+    font-size: 1.3em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 #book a {
     background-color: rgb(200, 92, 142);
     border: 2px solid rgb(188, 87, 142);
@@ -102,13 +109,6 @@ section {
     background-color: rgb(245, 245, 245);
     color: rgb(200, 92, 142);
     font-weight: 600;
-}
-
-.nav-link {
-    color: rgb(157, 60, 114);
-    font-size: 1.3em;
-    font-weight: 600;
-    text-decoration: none;
 }
 
 .header h1 {
