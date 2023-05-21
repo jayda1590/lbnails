@@ -1,6 +1,6 @@
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&family=Poppins:wght@200;300;400;500;600&display=swap');
 
 /* Custom Properties */
 
@@ -122,7 +122,7 @@ section {
     font-size: var(--step-0);
 }
 
-#about, #services {
+#about {
     padding: 4em;
 }
 
@@ -147,40 +147,10 @@ section {
     grid-row: span 2;
 }
 
-.services-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 2em;
-    padding: 1em;
+#services {
+    padding: 2em 0;
 }
 
-.service-info {
-    flex: 0 0 40vw;
-    padding-left: 3.5em;
-}
-
-.service-imgs {
-    display: grid;
-    grid-template-rows: 1fr;
-    padding: 1em;
-    margin: 1.5em;
-
-    flex: 0 0 40vw;
-}
-
-.img-top {
-    grid-column: 2 / span 2;
-    grid-row: 1 / span 2;
-    max-width: 10em;
-    place-self: end;
-    z-index: 1;
-}
-
-.img-btm {
-    grid-column: 1 / span 2;
-    grid-row: 2 / span 2;
-}
 
 #contact {
     align-items: baseline;
@@ -228,7 +198,7 @@ nav {
 
 .nav-link {
     color: var(--dark-accent);
-    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: var(--step-0);
     font-weight: 600;
     opacity: 0;
@@ -263,7 +233,7 @@ header h1 {
 }
 
 h2 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 #about {
@@ -282,10 +252,13 @@ h2 {
     text-align: justify;
 }
 
-.service-info li {
-    line-height: 2;
-    list-style-type: none;
-    text-align: justify;
+#contact h3 {
+    font-weight: 400;
+}
+
+.hours p {
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 @media screen and (max-width: 44em) {
