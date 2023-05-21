@@ -167,8 +167,8 @@ section {
     justify-content: space-around;
 }
 
-.connect, .hours {
-    flex-basis: 25em;
+.connect, .email, .hours {
+    flex: 0 0 calc(33.33% - 10px);
     line-height: 1.6;
     padding: 2.5em;
 }
@@ -280,6 +280,12 @@ span {
 
 footer {
     background-color: var(--body-pink);
+    font-size: 0.9em;
+}
+
+footer a {
+    color: var(--dark-accent);
+    text-decoration: none;
 }
 
 #contact h3 {
@@ -302,9 +308,10 @@ footer {
     padding: 1em 0;
 }
 
-.copy a {
-    color: var(--dark-accent);
-    text-decoration: none;
+@media screen and (max-width: 50em) {
+    .connect, .email, .hours {
+        flex-basis: 100%;
+    }
 }
 
 @media screen and (max-width: 44em) {
