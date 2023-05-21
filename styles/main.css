@@ -16,6 +16,7 @@
     --dark-accent: rgb(157, 60, 114);
     --mid-accent: rgb(200, 92, 142);
     --nav-pink: rgba(253, 204, 204, 0.9);
+    --copy: rgb(62, 62, 62);
   }
   
 /* ALL */
@@ -155,14 +156,12 @@ section {
     display: flex;
     justify-content: space-around;
     line-height: 2;
-    padding: 2em 6em;
+    padding: 2em 2.5em;
     text-align: justify;
 }
 
-
 #contact {
     align-items: baseline;
-    background-color: var(--body-pink);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -172,7 +171,12 @@ section {
     flex-basis: 25em;
     line-height: 1.6;
     padding: 2.5em;
+}
 
+hr {
+    border-radius: 2px;
+    max-width: 75%;
+    margin: 0 auto;
 }
 
 /* CONTENT */
@@ -274,6 +278,10 @@ span {
     font-weight: 400;
 }
 
+footer {
+    background-color: var(--body-pink);
+}
+
 #contact h3 {
     font-weight: 400;
 }
@@ -286,6 +294,17 @@ span {
 .hours p {
     font-weight: 300;
     letter-spacing: 1px;
+}
+
+.copy {
+    color: var(--copy);
+    font-size: 0.7em;
+    padding: 1em 0;
+}
+
+.copy a {
+    color: var(--dark-accent);
+    text-decoration: none;
 }
 
 @media screen and (max-width: 44em) {
