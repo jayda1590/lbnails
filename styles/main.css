@@ -155,7 +155,7 @@ section {
     display: flex;
     justify-content: space-around;
     line-height: 2;
-    padding: 2em 2em;
+    padding: 2em 6em;
     text-align: justify;
 }
 
