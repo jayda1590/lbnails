@@ -20,8 +20,15 @@ header {
     justify-content: center;
 }
 
+.wrapper {
+    position: relative;
+}
+
 .logo {
     height: 3em;
+    left: -40px;
+    position: absolute;
+    top: 12px;
     width: 3em;
 }
 
