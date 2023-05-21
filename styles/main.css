@@ -62,9 +62,9 @@ header {
     align-items: center;
     display: flex;
     height: 50%;
-    left: 0;
     margin-left: 1em;
     position: absolute;
+    right: 15px;
     top: 15px;
 }
 
@@ -72,7 +72,7 @@ header {
 .nav-toggle-label::after,
 .nav-toggle-label::before {
     border-radius: 2px;
-    background-color: #fff;
+    background-color: var(--mid-accent);
     display: block;
     height: 2px;
     position: relative;
@@ -100,7 +100,7 @@ header {
 nav {
     left: 0;
     position: absolute;
-    text-align: left;
+    text-align: center;
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
