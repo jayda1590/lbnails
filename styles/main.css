@@ -151,6 +151,14 @@ section {
     padding: 2em 0;
 }
 
+.services-info {
+    display: flex;
+    justify-content: space-around;
+    line-height: 2;
+    padding: 2em 2em;
+    text-align: justify;
+}
+
 
 #contact {
     align-items: baseline;
@@ -188,6 +196,7 @@ header {
 .logo {
     background-color: var(--body-pink);
     height: 1.8em;
+    margin-left: 1.2em;
     opacity: 0;
     width: 1.8em;
 }
@@ -252,11 +261,25 @@ h2 {
     text-align: justify;
 }
 
+.note {
+    font-size: 0.75em;
+    font-weight: 300;
+    margin: 0 auto;
+    max-width: 68ch;
+    padding: 0 3em;
+}
+
+span {
+    color: var(--mid-accent);
+    font-weight: 400;
+}
+
 #contact h3 {
     font-weight: 400;
 }
 
 .icon {
+    margin: 0 0.5rem;
     width: 2em;
 }
 
