@@ -200,7 +200,7 @@ header {
 .logo {
     background-color: var(--body-pink);
     height: 1.8em;
-    margin-left: 2.5em;
+    margin-left: 2.2em;
     opacity: 0;
     width: 1.8em;
 }
@@ -330,14 +330,14 @@ footer a {
     }
 }
 
-@media screen and (min-width: 45em) {
+@media screen and (min-width: 46em) {
     .nav-toggle-label {
         display: none;
     }
 
     .navbar {
         display: grid;
-        grid-template-columns: 1fr auto minmax(640px, 14fr) 1fr;
+        grid-template-columns: 1fr auto minmax(640px, 16fr) 1fr;
     }
 
     .logo {
