@@ -100,6 +100,7 @@ header {
 
 nav {
     left: 0;
+    padding-bottom: 1em;
     position: absolute;
     text-align: center;
     transform: scale(1, 0);
@@ -237,9 +238,7 @@ nav {
 }
 
 .book:hover {
-    /* background-color: var(--btn-bg); */
     box-shadow: 0 6px 16px rgba(157, 60, 114, 0.18), 0 4px 4px rgba(157, 60, 114, 0.22);
-    /* color: var(--mid-accent); */
     transform: scale(0.95);
 }
 
