@@ -227,16 +227,20 @@ nav {
     background-color: var(--mid-accent);
     border: 2px solid var(--btn-accent);
     border-radius: 50px;
+    box-shadow: 0 8px 18px rgba(157, 60, 114, 0.3), 0 8px 6px rgba(157, 60, 114, 0.22);
     color: var(--btn-bg);
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     padding: .5em 1em;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     text-decoration: none;
 }
 
 .book:hover {
-    background-color: var(--btn-bg);
-    color: var(--mid-accent);
+    /* background-color: var(--btn-bg); */
+    box-shadow: 0 6px 16px rgba(157, 60, 114, 0.18), 0 4px 4px rgba(157, 60, 114, 0.22);
+    /* color: var(--mid-accent); */
+    transform: scale(0.95);
 }
 
 header h1 {
