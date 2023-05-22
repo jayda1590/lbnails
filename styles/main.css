@@ -170,7 +170,7 @@ section {
 .connect, .email, .hours {
     flex: 0 0 calc(33.33% - 10px);
     line-height: 1.6;
-    padding: 2.5em;
+    padding: 2em;
 }
 
 hr {
