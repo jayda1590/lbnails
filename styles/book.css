@@ -12,7 +12,6 @@ body {
     /* background: rgb(200, 92, 142), url('../imgs/lbn-banner7.png'); */
     background: url('../imgs/lbn-banner7.png'), rgb(253, 204, 204);
     background-position: center;
-    /* background-repeat: no-repeat; */
     background-size: cover;
     font-family: "Great Vibes", cursive;
     height: 100vh;
