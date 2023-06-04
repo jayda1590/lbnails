@@ -9,8 +9,8 @@
 }
 
 body {
-    /* background: rgb(200, 92, 142), url('../imgs/lbn-banner7.png'); */
-    background: url('../imgs/lbn-banner7.png'), rgb(253, 204, 204);
+    /* background: url('../imgs/lbn-banner7.png'), rgb(253, 204, 204); */
+    background-color:rgb(188, 87, 142);
     background-position: center;
     background-size: cover;
     font-family: "Great Vibes", cursive;
