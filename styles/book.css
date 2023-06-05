@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&family=Poppins:wght@200;300;400;500;600&display=swap');
 
+
+/* ROOT */
+
+:root {
+    --bg-color-one: rgb(253, 253, 242);
+    --bg-color-two: rgb(000, 000, 000);
+    --accent-color-one: rgb(211, 21, 255);
+    --accent-color-two: rgb(230, 95, 251);
+    --title: rgb(175, 16, 199);
+}
+
 /* ALL */
 
 * {
@@ -9,8 +20,7 @@
 }
 
 body {
-    /* background: url('../imgs/lbn-banner7.png'), rgb(253, 204, 204); */
-    background-color:rgb(188, 87, 142);
+    background: linear-gradient(rgba(144, 143, 143, 0.5), rgba(141, 140, 139, 0.5));
     background-position: center;
     background-size: cover;
     font-family: "Great Vibes", cursive;
@@ -18,9 +28,10 @@ body {
 
 header {
     align-items: center;
-    background-color: rgba(253, 204, 204, 0.9);
+    background-color: var(--bg-color-two);
     display: flex;
     justify-content: center;
+    text-shadow: 0 2px 2px rgb(175, 16, 199);
 }
 
 .wrapper {
@@ -38,7 +49,7 @@ header {
 }
 
 h1 {
-    color:rgb(157, 60, 114);
+    color: var(--accent-color-one);
     font-size: 3.5em;
     font-weight: 600;
     margin-top: 0.5em;
