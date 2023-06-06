@@ -20,37 +20,53 @@
 }
 
 body {
-    background: linear-gradient(rgba(144, 143, 143, 0.5), rgba(141, 140, 139, 0.5));
+    background: linear-gradient(rgba(144, 143, 143, 0.5), rgba(141, 140, 139, 0.5)), url('../imgs/lbn-banner7.png');
     background-position: center;
     background-size: cover;
     font-family: "Great Vibes", cursive;
 }
 
-header {
+.wrapper {
     align-items: center;
     background-color: var(--bg-color-two);
     display: flex;
     justify-content: center;
-    text-shadow: 0 2px 2px rgb(175, 16, 199);
 }
 
-.wrapper {
-    display: inline-block;
-    padding: 0.5rem 0;
-    position: relative;
-}
-
-.logo {
+.bf-icon {
     height: 3em;
-    left: -45px;
-    position: absolute;
-    top: 20px;
     width: 3em;
 }
 
 h1 {
     color: var(--accent-color-one);
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-weight: 600;
-    margin-top: 0.5em;
+    margin-top: 0.4em;
+    padding-bottom: 1rem;
+    text-shadow: 0 2px 2px rgb(175, 16, 199);
+}
+
+main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 32em) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .bf-icon {
+        height: 2em;
+        width: 2em;
+    }
+}
+
+@media only screen and (max-width: 18em) {
+    h1 {
+        font-size: 1.8rem;
+    }
 }

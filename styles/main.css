@@ -13,7 +13,7 @@
     --bg-color-two: rgb(000, 000, 000);
     --accent-color-one: rgb(211, 21, 255);
     --accent-color-two: rgb(230, 95, 251);
-    --title: rgb(175, 16, 199);
+    --title: rgb(163, 64, 179);
     /* --body-pink: rgb(253, 204, 204);
     --btn-accent: rgb(188, 87, 142);
     --btn-bg: rgb(245, 245, 245);
@@ -53,7 +53,7 @@ header {
 }
 
 .navbar {
-    padding: 1em 0;
+    padding: 0.6em 0;
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -69,7 +69,7 @@ header {
     height: 50%;
     margin-left: 1em;
     position: absolute;
-    right: 15px;
+    right: 20px;
     top: 15px;
 }
 
@@ -199,15 +199,14 @@ header {
 
 .nav-toggle:checked ~ nav a {
     opacity: 1;
-    transition: opacity 250ms ease-in-out 250ms;
+    transition: opacity 250ms ease-in 250ms;
 }
 
 .logo {
-    background-color: var(--accent-colr-one);
     height: 3.6em;
-    margin-left: 2.2em;
+    margin-left: 2em;
     opacity: 0;
-    width: 10em;
+    min-width: 14em;
 }
 
 nav {
@@ -229,7 +228,7 @@ nav {
 }
 
 .book {
-    background-color: var(--accent-color-one);
+    background-color: var(--title);
     border: 2px solid var(--accent-color-two);
     border-radius: 50px;
     color: var(--bg-color-one);
@@ -251,8 +250,8 @@ header h1 {
     font-family: "Great Vibes", cursive;
     font-size: clamp(min(11vw, 25rem), 11vw, max(50vw, 30rem));
     font-weight: 300;
-    padding: 1.8em 0 1.5em 0;
-    text-shadow: 2px 1px var(--accent-color-one);
+    padding: 2em 0 1.5em 0;
+    text-shadow: 2px 1px var(--accent-color-two);
 }
 
 h2 {
@@ -337,7 +336,7 @@ footer a {
     }
 }
 
-@media screen and (min-width: 56em) {
+@media screen and (min-width: 58em) {
     .nav-toggle-label {
         display: none;
     }
