@@ -251,7 +251,7 @@ header h1 {
     font-size: clamp(min(11vw, 25rem), 11vw, max(50vw, 30rem));
     font-weight: 300;
     padding: 2em 0 1.5em 0;
-    text-shadow: 2px 1px var(--accent-color-two);
+    text-shadow: 2px 1px #000;
 }
 
 h2 {
