@@ -275,7 +275,7 @@ h2 {
     text-align: justify;
 }
 
-.note {
+.deposit-note {
     font-size: 0.75em;
     font-weight: 300;
     margin: 0 auto;
@@ -286,6 +286,19 @@ h2 {
 span {
     color: var(--accent-color-one);
     font-weight: 400;
+}
+
+.appt-note {
+    color: var(--accent-color-one);
+}
+
+.appt-note a {
+    color: var(--bg-color-two);
+    text-decoration: none;
+}
+
+.appt-note a:hover {
+    background-color: var(--accent-color-one);
 }
 
 footer {
