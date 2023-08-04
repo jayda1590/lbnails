@@ -188,7 +188,7 @@ hr {
 /* CONTENT */
 
 header {
-    background: linear-gradient(rgba(144, 143, 143, 0.5), rgba(141, 140, 139, 0.5)), url('../imgs/lbn-banner7.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(144, 143, 141, 0.5)), url('../imgs/lbn-banner7.png');
     background-position: bottom;
     background-size: cover;
 }
@@ -259,7 +259,7 @@ h2 {
 }
 
 #about {
-    background: linear-gradient(rgba(163, 64, 179, 0.75), var(--title)), url('../imgs/prpbutterflyheart.svg') no-repeat;
+    background: linear-gradient(to bottom right, rgba(163, 64, 179, 0.7), var(--title)), url('../imgs/prpbutterflyheart.svg') no-repeat;
     background-size: cover;
     color: var(--bg-color-one);
 }
