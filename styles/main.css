@@ -1,6 +1,6 @@
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&family=Poppins:wght@200;300;400;500;600&family=Tenor+Sans&display=swap');
 
 /* Custom Properties */
 
@@ -116,7 +116,7 @@ nav {
 
 nav ul {
     list-style: none;
-    margin: 0;
+    margin: 0.5em 2.5em 0 0;
     padding: 0;
 }
 
@@ -130,6 +130,7 @@ section {
 
 #about {
     padding: 4em;
+    position: relative;
 }
 
 .img-grid {
@@ -203,10 +204,9 @@ header {
 }
 
 .logo {
-    height: 3.6em;
-    margin-left: 2em;
+    margin-left: 4.5em;
     opacity: 0;
-    min-width: 14em;
+    max-width: 16em;
 }
 
 nav {
@@ -259,7 +259,8 @@ h2 {
 }
 
 #about {
-    background-color: var(--title);
+    background: linear-gradient(rgba(163, 64, 179, 0.75), var(--title)), url('../imgs/prpbutterflyheart.svg') no-repeat;
+    background-size: cover;
     color: var(--bg-color-one);
 }
 
@@ -336,14 +337,14 @@ footer a {
     }
 }
 
-@media screen and (min-width: 58em) {
+@media screen and (min-width: 55em) {
     .nav-toggle-label {
         display: none;
     }
 
     .navbar {
         display: grid;
-        grid-template-columns: 1fr auto minmax(640px, 16fr) 1fr;
+        grid-template-columns: 1fr auto minmax(590px, 14fr) 1fr;
     }
 
     .logo {
