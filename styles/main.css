@@ -299,6 +299,7 @@ span {
 
 .appt-note a:hover {
     background-color: var(--accent-color-one);
+    color: var(--bg-color-one);
 }
 
 footer {
