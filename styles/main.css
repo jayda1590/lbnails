@@ -68,6 +68,10 @@ nav ul {
     list-style: none;
 }
 
+.nav-link {
+    margin-right: 3rem;
+}
+
 .nav-link.active {
     position: relative;
 }
@@ -314,8 +318,11 @@ footer a {
     }
 
     .logo {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top: 2rem solid var(--bg-color-two);
         margin-left: 0;
-        min-width: 100%;
+        max-width: 100%;
     }
 
     nav ul {
@@ -325,6 +332,7 @@ footer a {
 
     .nav-link {
         padding: 0 0.4rem;
+        margin-right: 0;
     }
 
     .nav-link.active::after {
@@ -381,8 +389,11 @@ footer a {
     }
 
     .logo {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top: 2rem solid var(--bg-color-two);
         margin-left: 0;
-        min-width: 100%;
+        max-width: 100%;
     }
 
     nav ul {
@@ -392,6 +403,7 @@ footer a {
 
     .nav-link {
         padding: 0 1rem;
+        margin-right: 0;
     }
 
     .nav-link.active::after {
