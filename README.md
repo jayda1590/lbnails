@@ -4,3 +4,7 @@ Butterfly Icon by <a class="link_pro" href="https://freeicons.io/butterfly-icon-
 on <a href="https://freeicons.io">freeicons.io</a>
 
 Favicon: <a target="_blank" href="https://icons8.com/icon/pmiijGGgOR0N/butterfly">Butterfly</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+Nail polish icon: created by Artur Shageyev from the Noun Project
+
+Add-ons Nail art icon: created by Kristina Margaryan from the Noun Project
