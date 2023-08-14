@@ -182,7 +182,7 @@ header {
 }
 
 .logo {
-    max-width: 16em;
+    min-width: 18em;
 }
 
 .nav-link {
