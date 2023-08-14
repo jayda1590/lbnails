@@ -353,6 +353,10 @@ footer a {
 
 @media screen and (min-width: 20em) and (max-width: 35em) {
     header {
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(144, 143, 141, 0.5)), url('../imgs/lbn-banner7.png');
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: cover;
         height: 52vh;
     }
 
@@ -410,6 +414,10 @@ footer a {
 
 @media screen and (max-width: 20em) {
     header {
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(144, 143, 141, 0.5)), url('../imgs/lbn-banner7.png');
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: cover;
         height: 50vh;
     }
 
