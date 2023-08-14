@@ -11,7 +11,7 @@
 
     --bg-color-one: rgb(253, 253, 242);
     --bg-color-two: rgb(000, 000, 000);
-    --accent-color-one: rgb(211, 21, 255);
+    --accent-color-one: rgb(222, 21, 255);
     --accent-color-two: rgb(230, 95, 251);
     --title: rgb(163, 64, 179);
     /* --body-pink: rgb(253, 204, 204);
@@ -53,7 +53,7 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.5rem;
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -182,10 +182,6 @@ header {
 }
 
 .logo {
-    border-bottom: 1.2rem solid var(--bg-color-two);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top: 2rem solid var(--bg-color-two);
     max-width: 16em;
 }
 
@@ -263,6 +259,7 @@ span {
 
 .appt-note {
     color: var(--accent-color-one);
+    padding: 1rem;
 }
 
 .appt-note a {
@@ -308,39 +305,6 @@ footer a {
 
 /* Media Queries */
 
-.logo {
-    margin: -2rem 0 -2rem 6.5rem;
-}
-
-nav {
-    margin-right: 3.2rem;
-}
-
-nav ul {
-    display: inline-flex;
-    list-style: none;
-}
-
-.nav-link {
-    margin-right: 3rem;
-}
-
-.nav-link.active {
-    position: relative;
-}
-
-.nav-link.active::after {
-    content: "";
-    background-image: url('../imgs/nail-polish-icon.svg');
-    background-size: contain;
-    display: inline-block;
-    height: 2.5rem;
-    left: -2rem;
-    position: absolute;
-    top: -0.8rem;
-    width: 2rem;
-} 
-
 @media screen and (min-width: 35em) and (max-width: 58em) {
 
     header h1 {
@@ -353,6 +317,7 @@ nav ul {
 
     .logo {
         margin: 0;
+        min-width: 70%;
         padding: 0;
     }
 
@@ -362,7 +327,7 @@ nav ul {
 
     nav ul {
         margin-left: 2rem;
-        padding-top: 2rem;
+        padding-top: 0.2rem;
     }
 
     .nav-link {
@@ -372,7 +337,7 @@ nav ul {
 
     .nav-link.active::after {
         height: 2.2rem;
-        left: -0.5rem;
+        left: -0.7rem;
         top: -0.5rem;
         width: 1.8rem;
     } 
@@ -388,11 +353,11 @@ nav ul {
 
 @media screen and (min-width: 20em) and (max-width: 35em) {
     header {
-        height: 55vh;
+        height: 52vh;
     }
 
     header h1 {
-        margin-top: 12rem;
+        margin-top: 8rem;
     }
 
     .navbar {
@@ -401,7 +366,7 @@ nav ul {
 
     .logo {
         margin: 0;
-        max-width: 100%;
+        max-width: 70%;
         padding: 0;
     }
 
@@ -411,19 +376,18 @@ nav ul {
 
     nav ul {
         margin-left: 0;
-        padding-top: 0.5rem;
     }
 
     .nav-link {
         margin-right: 0;
-        padding: 0 1rem;
+        padding: 0 0.8rem;
     }
 
     .nav-link.active::after {
         height: 2rem;
-        left: -0.5rem;
+        left: -0.7rem;
         top: -0.5rem;
-        width: 1.5rem;
+        width: 1.6rem;
     } 
 
     #about {
@@ -446,11 +410,11 @@ nav ul {
 
 @media screen and (max-width: 20em) {
     header {
-        height: 56vh;
+        height: 50vh;
     }
 
     header h1 {
-        margin-top: 12rem;
+        margin-top: 8rem;
     }
 
     .navbar {
@@ -468,7 +432,6 @@ nav ul {
 
     nav ul {
         margin-left: 0;
-        padding-top: 0.5rem;
     }
 
     .nav-link {
