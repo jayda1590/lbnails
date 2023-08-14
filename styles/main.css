@@ -308,6 +308,10 @@ footer a {
 @media screen and (min-width: 35em) and (max-width: 58em) {
 
     header h1 {
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(144, 143, 141, 0.5)), url('../imgs/lbn-banner7.png');
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: cover;
         margin-top: 5rem;
     }
 
